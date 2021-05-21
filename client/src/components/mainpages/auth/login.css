@@ -1,0 +1,53 @@
+.login-page{
+    max-width: 500px;
+    border: 2px solid rgba(0, 110, 255, 0.856);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 50px auto;
+}
+.login-page h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #555;
+}
+.login-page form input,
+.login-page form button{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 5px;
+    outline: rgba(0, 110, 255, 0.856);
+    border-color: rgba(0, 110, 255, 0.856);
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    background-color: #4850611e;
+}
+.login-page form .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-page form button{
+    width: 150px;
+    background: #4850611e;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.login-page form a{
+    color: rgba(0, 110, 255, 0.856);
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+.login-page form button:hover{
+    background-color:rgba(0, 110, 255, 0.856);
+}
+.login-page form .hr{
+    color: rgba(0, 110, 255, 0.856);
+}
+.login-page form .sosial button{
+    width: 100%;
+    height: auto;
+}
